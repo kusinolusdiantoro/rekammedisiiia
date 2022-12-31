@@ -7,9 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
 
     <style>
         html {
@@ -100,113 +103,130 @@
 
 
     <!-- start card background-->
+
     <div class="card text-center mt-4 mb-3 bg-dark" style="border-radius:35px">
-        <div class="card-header text-light"
-            style="background-color: #770F60; border-top-right-radius: 35px; border-top-left-radius:35px">
+        <div class="card-header text-light mx-4 mt-3" style="background-color: #770F60; border-radius: 35px;">
             <h4>Materi dan Tugas</h4>
         </div>
 
 
         <!-- start card materi and tugas -->
-        <div class="col mx-4 my-3">
-            <div class="card" style="border-radius: 25px; box-shadow : 6px 8px 4px rgb(124, 120, 120)">
-                <center>
-                    <img src=" img/poltek.png" class="card-img-top mt-3" alt="Drive" style="width: 100px">
-                </center>
-                <div class="card-body">
-                    <h5 class="card-title">Sistem Informasi dan Aplikasi Akademik</h5>
-                    <p class="card-text">Akses semua informasi perkuliahan</p>
-                    <a href="https://siak.poltekkestasikmalaya.ac.id/gate/login" class="btn text-light"
-                        style="background-color: #4C113E">Go somewhere</a>
-                </div>
-            </div>
-        </div>
-        <div class="row row-cols-1 row-cols-md-2 g-2 mx-3 mb-3">
-            <div class="col">
+        <div data-aos="fade-up">
+            <div class="col mx-4 my-3">
                 <div class="card" style="border-radius: 25px; box-shadow : 6px 8px 4px rgb(124, 120, 120)">
                     <center>
-                        <img src="img/drive.png" class="card-img-top my-2" alt="Google Drive" style="width: 100px">
+                        <img src=" img/poltek.png" class="card-img-top mt-3" alt="Drive" style="width: 100px">
                     </center>
                     <div class="card-body">
-                        <h5 class="card-title">Google Drive</h5>
-                        <p class="card-text">Akses semua materi dan tugas</p>
-                        <a href="#" class="btn text-light" style="background-color: #4C113E">Go somewhere</a>
+                        <h5 class="card-title">Sistem Informasi dan Aplikasi Akademik</h5>
+                        <p class="card-text">Akses semua informasi perkuliahan</p>
+                        <a href="https://siak.poltekkestasikmalaya.ac.id/gate/login" class="btn text-light"
+                            style="background-color: #4C113E">Go somewhere</a>
                     </div>
                 </div>
             </div>
-            <div class="col">
-                <div class="card mt-2" style="border-radius: 25px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
+        </div>
+        <div data-aos="fade-up">
+            <div class="row row-cols-1 row-cols-md-2 g-2 mx-3 mb-3">
+                <div class="col">
+                    <div class="card" style="border-radius: 25px; box-shadow : 6px 8px 4px rgb(124, 120, 120)">
+                        <center>
+                            <img src="img/drive.png" class="card-img-top my-2" alt="Google Drive" style="width: 100px">
+                        </center>
+                        <div class="card-body">
+                            <h5 class="card-title">Google Drive</h5>
+                            <p class="card-text">Akses semua materi dan tugas</p>
+                            <a href="#" class="btn text-light" style="background-color: #4C113E">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div data-aos="fade-up">
+                    <div class="col">
+                        <div class="card" style="border-radius: 25px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
                     <center>
                         <img src=" img/edlink.png" class="card-img-top my-4" alt="edlink" style="width: 160px">
-                    </center>
-                    <div class="card-body">
-                        <h5 class="card-title">Edlink</h5>
-                        <p class="card-text">Pembelajaran inovatif kreasi anak bangsa</p>
-                        <a href="https://edlink.id/panel" class="btn text-light" style="background-color: #4C113E">Go
-                            somewhere</a>
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Edlink</h5>
+                                <p class="card-text">Pembelajaran inovatif kreasi anak bangsa</p>
+                                <a href="https://edlink.id/panel" class="btn text-light"
+                                    style="background-color: #4C113E">Go
+                                    somewhere</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- end card materi and tugas -->
+            <!-- end card materi and tugas -->
+            <div data-aos="fade-up">
+                <div class="card text-center mt-4 mb-3 mx-3 bg-dark" style="border-radius:35px;">
+                    <div class="card-header text-light" style="background-color: #770F60; border-radius:35px">
+                        <h4>Jadwal Perkuliahan</h4>
+                    </div>
+                </div>
 
-
-        <div class="card text-center mt-4 mb-3 bg-dark" style="border-radius:35px;">
-            <div class="card-header text-light" style="background-color: #770F60; border-radius:35px">
-                <h4>Jadwal Perkuliahan</h4>
+                <!-- start card dalem -->
+                <div data-aos="fade-up">
+                    <div class="card text-center mx-3 my-2"
+                        style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
+                <div class=" card-header text-light"
+                        style="background-color: #4C113E; border-top-right-radius: 35px; border-top-left-radius:1px;">
+                        Senin
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Pendidikan Budaya Anti Korupsi</h5>
+                        <h5 class="card-text">Basis Data</h5>
+                    </div>
+                </div>
             </div>
-
-            <!-- start card dalem -->
+            <div data-aos="fade-up">
+                <div class="card text-center mx-3 my-2"
+                    style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
+            <div class=" card-header text-light"
+                    style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">
+                    Selasa</div>
+                <div class="card-body">
+                    <h5 class="card-title">Desain dan Manajemen Formulir</h5>
+                    <h5 class="card-text">Epidemiologi</h5>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up">
             <div class="card text-center mx-3 my-2"
                 style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
-                <div class=" card-header text-light"
-                style="background-color: #4C113E; border-top-right-radius: 35px; border-top-left-radius:1px;">Senin
+        <div class=" card-header text-light"
+                style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">Rabu
             </div>
             <div class="card-body">
-                <h5 class="card-title">Pendidikan Budaya Anti Korupsi</h5>
-                <h5 class="card-text">Basis Data</h5>
+                <h5 class="card-title">Farmakologi</h5>
+                <h5 class="card-text">Statistik Fasyankes</h5>
             </div>
         </div>
+    </div>
+    <div data-aos="fade-up">
         <div class="card text-center mx-3 my-2"
             style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
-            <div class=" card-header text-light"
-            style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">
-            Selasa</div>
+        <div class=" card-header text-light"
+            style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">Kamis
+        </div>
         <div class="card-body">
-            <h5 class="card-title">Desain dan Manajemen Formulir</h5>
-            <h5 class="card-text">Epidemiologi</h5>
+            <h5 class="card-title">Kodefikasi Terkait Sistem Panca Indera, Saraf dan Gangguan Jiwa dan Perilaku
+            </h5>
+            <h5 class="card-text">Kewirausahaan</h5>
         </div>
     </div>
-    <div class="card text-center mx-3 my-2"
-        style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
+    </div>
+    <div data-aos="fade-up">
+        <div class="card text-center mx-3 my-2"
+            style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
         <div class=" card-header text-light"
-        style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">Rabu
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Farmakologi</h5>
-        <h5 class="card-text">Statistik Fasyankes</h5>
-    </div>
-    </div>
-    <div class="card text-center mx-3 my-2"
-        style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
-        <div class=" card-header text-light"
-        style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">Kamis
-    </div>
-    <div class="card-body">
-        <h5 class="card-title">Kodefikasi Terkait Sistem Panca Indera, Saraf dan Gangguan Jiwa dan Perilaku
-        </h5>
-        <h5 class="card-text">Kewirausahaan</h5>
-    </div>
-    </div>
-    <div class="card text-center mx-3 my-2"
-        style="border-top-right-radius: 35px; border-top-left-radius:1px; border-bottom-right-radius:1px; border-bottom-left-radius:35px; box-shadow : 6px 8px 4px rgb(124, 120, 120)"">
-        <div class=" card-header text-light"
-        style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">
-        Jum'at</div>
-    <div class="card-body">
-        <h5 class="card-title">Sistem Manajemen Mutu</h5>
-        <h5 class="card-text">Kodefikasi Terkait Sistem Panca Indera, Saraf dan Gangguan Jiwa dan Perilaku
-        </h5>
+            style="background-color: #4C113E ; border-top-right-radius: 35px; border-top-left-radius:1px;">
+            Jum'at</div>
+        <div class="card-body">
+            <h5 class="card-title">Sistem Manajemen Mutu</h5>
+            <h5 class="card-text">Kodefikasi Terkait Sistem Panca Indera, Saraf dan Gangguan Jiwa dan Perilaku
+            </h5>
+        </div>
     </div>
     </div>
 
@@ -220,14 +240,19 @@
 
     <!-- start copyright -->
     <footer class="text-light text-center" style="background-color: #770F60; border-radius:10px">
-        <p>Copyright &copy; 2022 Rekam medis dan informasi kesehatan 2A by kusino lusdiantoro</p>
+        <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/uskulus__/"
+                class="text-light fw-bold">Kusino Lusdiantoro</a>
+        </p>
     </footer>
-
     <!-- end copyright -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
 </style>
