@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <style>
         html {
@@ -17,11 +18,10 @@
         }
 
         body {
-            background: -webkit-linear-gradient(#2E0A26, #A51B86D6, #C926A561, #2E0A26);
-            background: -o-linear-gradient(#2E0A26, #A51B86D6, #C926A561, #2E0A26);
-            background: -moz-linear-gradient(#2E0A26, #A51B86D6, #C926A561, #2E0A26);
-            background: linear-gradient(#2E0A26, #A51B86D6, #C926A561, #2E0A26);
-
+            background: -webkit-linear-gradient(#0d000b, #310127ee, #500c41c6, #0d000b);
+            background: -o-linear-gradient(#0d000b, #310127ee, #500c41c6, #0d000b);
+            background: -moz-linear-gradient(#0d000b, #310127ee, #500c41c6, #0d000b);
+            background: linear-gradient(#0d000b, #310127ee, #500c41c6, #0d000b);
 
         }
     </style>
@@ -31,9 +31,9 @@
 
 
     <!-- start navbar -->
-    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top" style="background-color: black;">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -41,27 +41,30 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/darkmode.html">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="/index.html">Home</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            More menu
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="index.html">Random Photo</a></li>
-                            <li><a class="dropdown-item" href="#">Sosial Media</a></li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#Materi">Materi</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#Jadwal">Jadwal</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="galeri/index.html">Galeri</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active text-light" aria-current="page" href="#">Sosial Media</a>
                     </li>
                 </ul>
             </div>
-            <a href="index.html" class="btn text-light" style="background-color: #4C113E; border-radius:30px;">Light
-                Mode</a>
+
         </div>
     </nav>
     <!-- end navbar -->
 
     <!-- start Welcome -->
-    <h2 class="text-light mx-3 mt-4">Hi! Teman-teman RMIK 2A!</h2>
+    <h2 class="text-light mx-3 mt-4" style="text-shadow: 3px 2px 5px  rgb(167, 161, 161);">Hi! Teman-teman RMIK 2A!
+    </h2>
     <script type="text/javascript">
         //<![CDATA[
         var h = (new Date()).getHours();
@@ -78,17 +81,20 @@
     <form class="d-flex" role="search">
         <input class="form-control  mx-2 my-3" type="search" placeholder="Search" aria-label="Search"
             style="border-radius: 30px;">
-        <button class="btn text-light mx-2 my-3" style="background-color:  #4C113E; border-radius:30px;"
+        <button class="btn text-light mx-2 my-3"
+            style="background-color:  #630850; border-radius:30px;  box-shadow: 3px 2px 3px rgba(193, 187, 187, 0.897) "
             type="submit">Search</button>
     </form>
     <!-- end search -->
 
     <!-- start welcome 2 -->
-    <div class="card mx-2 " style="background-color: #b4529d; border-radius : 30px;">
+    <div class="card mx-2 "
+        style="background-color: #630850; border-radius : 30px; box-shadow:  5px 8px 10px rgb(216, 210, 210)">
         <div class="card-body">
             <blockquote class="blockquote mb-0 text-light">
-                <h3>Welcome to official website RMIK 2A</h3>
-                <h6 class="text-light">see photos and moments that have happened</h6>
+                <h3 style="text-shadow: 4px 4px 3px black;">Welcome to official website RMIK 2A</h3>
+                <h6 class="text-light" style="text-shadow: 4px 4px 3px black;">see photos and moments that have happened
+                </h6>
             </blockquote>
         </div>
     </div>
@@ -96,9 +102,9 @@
 
 
     <!-- start card background-->
-    <div class="card text-center mt-4 mb-3" style="border-radius:35px">
-        <div class="card-header text-light"
-            style="background-color: #770F60; border-top-right-radius: 35px; border-top-left-radius:35px">
+    <div class="card text-center mt-4 mb-3" style=" background-color : black; border-radius:35px">
+        <div class="card-header text-light mx-4 mt-3"
+            style="background-color: #1d0a59; border-radius: 35px; box-shadow :  3px 5px 10px rgb(216, 210, 210)">
             <h4>Galeri Photo</h4>
         </div>
         <!-- end card background -->
@@ -106,7 +112,7 @@
 
         <!-- start galeri -->
         <div id="carouselExampleControls" class="carousel slide my-3 mx-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="border-radius: 25px; box-shadow :  5px 7px 10px rgb(216, 210, 210)">
                 <div class="carousel-item active">
                     <img src="assets/gambar1.jpg" class="d-block w-100" alt="...">
                 </div>
@@ -128,8 +134,9 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+
         <div id="carouselExampleControls" class="carousel slide my-2 mx-3" data-bs-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner" style="border-radius: 25px; box-shadow :  5px 7px 10px rgb(216, 210, 210)">
                 <div class="carousel-item active">
                     <img src="assets/gambar3.jpg" class="d-block w-100" alt="...">
                 </div>
@@ -152,11 +159,14 @@
             </button>
         </div>
     </div>
+
     <!-- end galeri -->
 
     <!-- start copyright -->
-    <footer class="text-light text-center mb-0" style="background-color: #770F60; border-radius:10px">
-        <p>Copyright &copy; 2022 Rekam medis dan informasi kesehatan 2A by kusino lusdiantoro</p>
+    <footer class="text-white text-center" style="background-color: #1e0419; border-radius:10px">
+        <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/uskulus__/"
+                class="text-light fw-bold">Kusino Lusdiantoro</a>
+        </p>
     </footer>
 
     <!-- end copyright -->
